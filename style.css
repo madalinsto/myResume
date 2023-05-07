@@ -21,6 +21,24 @@
     align-self: center;
 }
 
+#contacts, #techSkills, #softSkills {
+    margin-left: 20px;
+}
+
+#phoneDetails {
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+
+#phoneNumber, #emailContent {
+    margin-left: 15 px  
+}
+
+#uLTechSkills #uLSoftSkills{
+    padding-left: 15px;
+}
+
 .titleDetails {
     font-family: 'Montserrat';
     font-style: normal;
@@ -45,21 +63,25 @@ li {
     height: 100%;
 }
 
-#contacts, #techSkills, #softSkills {
-    margin-left: 20px;
+
+
+.titleOrganization {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color:#6D9BF5;
+padding-left: 10px;
 }
 
-#phoneDetails {
-    display: flex;
-    align-items: center;
-    /* padding-left: 10px; */
-}
+.universityName{
+    @extend .titleOrganization;
+    padding-left: 0px;
+} 
 
-#phoneNumber, #emailContent {
-    margin-left: 15 px  
-}
 
-#uLTechSkills #uLSoftSkills{
-    padding-left: 15px;
-}
 
+#workExperience > h4{
+    display: inline-block
+}
